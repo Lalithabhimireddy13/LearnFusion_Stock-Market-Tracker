@@ -1,0 +1,30 @@
+/* StockData.css */
+
+.stock-data-container {
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(243, 5, 5, 0.1);
+    background-color: #57df09;
+    max-width: 800px;
+  }
+  
+  .stock-data-container h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .stock-data-container pre {
+    text-align: left;
+    white-space: pre-wrap; /* Makes the content wrap */
+    background-color: #6208f1;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto; /* Allows horizontal scroll if content is too wide */
+  }
+  
+  .stock-data-container p {
+    font-style: italic;
+    color: #f8fc0d;
+  }
+  

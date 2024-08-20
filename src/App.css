@@ -1,0 +1,27 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #0a69f8;
+  color: #f81111;
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.stock-data-container, .stock-chart-container, .news-container {
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #61e912;
+  max-width: 1200px;
+}
+
+.news-container {
+  margin-top: 30px;
+}
